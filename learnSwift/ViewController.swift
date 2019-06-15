@@ -17,6 +17,6 @@ class ViewController: UIViewController {
     }
     // check
     @IBAction func shitButton(_ sender: UIButton) {
-        shitButtonOutlet.setTitle("Shiit", for: .normal)
+        shitButtonOutlet.setTitle("Shiiit", for: .normal)
     }
 }
