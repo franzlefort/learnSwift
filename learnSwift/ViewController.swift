@@ -8,11 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var shitButtonOutlet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-// check
+    // check
+    @IBAction func shitButton(_ sender: UIButton) {
+        shitButtonOutlet.setTitle("Shiit", for: .normal)
+    }
 }
-
